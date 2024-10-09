@@ -4,6 +4,27 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+
   }
+#content{
+  background-color: seagreen;
+  border: solid 3px #888;
+}
+
+h1, h2 {
+  color: lightblue;
+  font-size: 200%;
+  margin-left: 10px;
+}
+
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 110%;
+  margin-left: 20px;
+  margin-right: 200px;
+  color: aqua;
+  padding: 5px;
+}
+body{
+  background-color: grey;
+}
