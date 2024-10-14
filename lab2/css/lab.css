@@ -11,6 +11,11 @@
   background-color: seagreen;
   border: solid 3px #888;
 }
+#cat{
+  object-fit: contain;
+  width: 400px;
+  height: 300px;
+}
 
 h1, h2 {
   color: lightblue;
