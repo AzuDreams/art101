@@ -1,21 +1,10 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Rock Paper Scissors Psuedocode
+// Author: Ben Silver
+// Date: 10/17/24
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Dispay rock paper or scissor option to user
+  //Check what they selected and store the result in a variable
+  //Generate a selection for the computer and store the result in a variable
+  //Compare the variables
+  //Display results to user
+  //Ask user if they would like to play again
