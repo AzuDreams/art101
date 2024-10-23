@@ -1,31 +1,27 @@
-body {
-  background-color: #50808E;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: sans-serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
-}
+/* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+
+/* Adapted from https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css */
+@keyframes wingo {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0, 0;
+  }
 }
+h5, pre {
+  background: linear-gradient(to right,  white,white, black,black, white, white,black,black, black);/*trouble getting the timing I wanted resulted in this mess*/
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: wingo 15s linear infinite;
+  background-size: 400% 100%;
+}
+/* Adapted from https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css */

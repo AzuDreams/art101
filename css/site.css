@@ -13,6 +13,14 @@ h1,h2,h3 {
   color: white;
 }
 
+script {
+  font-family: sans-serif;
+  color: white;
+}
+
+
+
+
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
   letter-spacing: 5px;
