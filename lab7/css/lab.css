@@ -8,7 +8,7 @@
 
 .script-display{
   display:inline-block;
-  background: url(../img/car.jpg);
+  background: url(../img/car.jpg); /*Credit to Adobe Stock*/
   background-size: 150px;
   -webkit-background-clip: text;
   background-clip: text;
