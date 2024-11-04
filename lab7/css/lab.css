@@ -2,8 +2,22 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+  padding-bottom: 0px;
+  margin: 0px;
   }
+
+.script-display{
+  display:inline-block;
+  background: url(../img/car.jpg); /*Credit to Adobe Stock*/
+  background-size: 150px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  word-break: break-all;
+}
+.rainbow{
+  font-size: 400%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  line-height: .8;
+}
