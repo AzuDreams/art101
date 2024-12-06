@@ -10,13 +10,6 @@ console.log(pokemonNumber);
 const primUrl = "https://pokeapi.co/api/v2/pokemon/" + pokemonNumber
 console.log(primUrl);
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
 
 function main() {
   button.addEventListener('click', () => {
@@ -25,16 +18,10 @@ function main() {
     const primUrl = "https://pokeapi.co/api/v2/pokemon/" + pokemonNumber
     console.log(primUrl);
     $.ajax({
-      // The URL for the request (from the api docs)
 
       url: primUrl,
-      // The data to send (will be converted to a query string)
-      // Whether this is a POST or GET request
       type: "GET",
-      // The type of data we expect back
       dataType : "json",
-      // What do we do when the api call is successful
-      //   all the action goes in here
       success: function(data) {
           // do stuff
           console.log(data);
@@ -45,14 +32,11 @@ function main() {
 
 
       },
-      // What we do if the api call fails
       error: function (jqXHR, textStatus, errorThrown) { 
-          // do stuff
           console.log("Error:", textStatus, errorThrown);
       }
   })
   });
 }
 
-// let's get this party started
 main();
